@@ -76,3 +76,44 @@ Las aplicaciones de Markdown no aceptan "_" entre palabras, usa "*" en su lugar.
 Para poner un texto tanto en negrita como en cursiva al mismo tiempo pon "***" o "___".
 
 Al igual que las anteriores, no se debe usar "___" entre palabras.
+
+### Citas:
+
+Para crear una cita añade ">" delante de un párrafo. 
+
+#### Se verá así:
+>Esto es una cita de alguien.
+
+Y para citar varios párrafos añade "<" en las líneas en blanco, así:
+
+    >Cita uno
+    >
+    >Cita dos
+
+También se puede anidar una cita a otra colocando">>" delante del párrafo que quieras anidar, así:
+
+    >Cita
+    >
+    >>Cita anidada
+
+Y así es como se ve:
+
+>Cita
+>
+>>Cita anidada
+
+Las citas se pueden mezclar con otros elementos como "#" o "-"
+
+#### Ejemplo
+
+    > #### Esto es una cabecera
+    >
+    > - Texto1
+    > *cursiva* y **negrita**
+
+### Listas:
+
+Puedes organizar información en listas ordenadas y en listas desordenadas.
+
+#### Listas ordenadas:
+
